@@ -10,7 +10,7 @@
 sudo docker build -t=$NAME .
 ```
 
-  * `$NAME` tag your docker image with this name
+  1. `$NAME` tag your docker image with this name
 
 ## Run
 
@@ -18,5 +18,5 @@ sudo docker build -t=$NAME .
 sudo docker run -p $PORT:3306 $NAME
 ```
 
-  * `$NAME` the docker image tag
-  * `$PORT` the port number to map on your host machine
+  1. `$PORT` the port number to map on your host machine
+  2. `$NAME` the docker image tag
