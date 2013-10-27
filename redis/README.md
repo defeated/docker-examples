@@ -14,7 +14,7 @@ sudo docker build -t=$NAME .
 ## Run
 
 ```
-sudo docker run -p $PORT:3306 $NAME
+sudo docker run -p $PORT:6379 $NAME
 ```
 
   1. `$PORT` the port number to map on your host machine
