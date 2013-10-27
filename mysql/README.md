@@ -1,0 +1,21 @@
+# Details
+
+  1. Ubuntu 12.10
+  2. Configures `mysqld` at `0.0.0.0:3306` (all ip addresses)
+  3. Uses highly insecure `root@*` user
+
+## Build
+
+```
+sudo docker build .
+```
+
+## Run
+
+### Arguments:
+
+  * `$PORT` - the port number to map on your host machine
+
+```
+sudo docker run -p $PORT:3306 mysql
+```
