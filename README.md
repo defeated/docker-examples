@@ -8,3 +8,4 @@
 ## Examples
 
   * `mysql` [→](mysql/README.md)
+  * `redis` [→](redis/README.md)
